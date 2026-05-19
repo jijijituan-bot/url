@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "url",
+  "compatibility_date": "2026-05-19",
+  "observability": {
+    "enabled": true
+  },
+  "assets": {
+    "directory": "URL生成器"
+  },
+  "compatibility_flags": [
+    "nodejs_compat"
+  ]
+}
