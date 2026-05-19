@@ -3,9 +3,14 @@
   "version": "1.0.0",
   "description": "图片上传和视频转GIF工具",
   "scripts": {
-    "start": "cd URL生成器 && node app.js"
+    "start": "cd URL生成器 && node app.js",
+    "deploy": "wrangler deploy",
+    "preview": "wrangler dev"
   },
   "engines": {
     "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "wrangler": "^4.92.0"
   }
 }
